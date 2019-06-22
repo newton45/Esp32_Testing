@@ -1,6 +1,9 @@
 import time
 
-print(123)
+print(1233)
+led.value(1)
 time.sleep(1)
-print(321)
+
+print(3211)
+led.value(0)
 time.sleep(1)
