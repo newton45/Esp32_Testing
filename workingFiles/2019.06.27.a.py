@@ -10,10 +10,10 @@ FPS = 60
 timeGap_ms = 1000/FPS
 
 def runSync():
-	led = Pin(2, Pin.OUT)
-	print("Running!!!")
-	
-	saveFile = open('1.txt', 'r')
+  led = Pin(2, Pin.OUT)
+  print("Running!!!")
+  
+  saveFile = open('1.txt', 'r')
   while 1:
     for line in saveFile:
       t1 = time.ticks_ms()
